@@ -1,0 +1,6 @@
+Dialplan: sofia/external Regex (FAIL) [intercept-ext] destination_number(784) =~ /^\*\*(\d+)$/ break=on-true
+Dialplan: sofia/external/ Regex (FAIL) [intercept-ext] destination_number(784) =~ /^\*\*$/ break=on-false
+Dialplan: sofia/external/ parsing [laura.secord->intercept-ext-polycom] continue=false
+Dialplan: sofia/external/ Regex (FAIL) [intercept-ext-polycom] destination_number(784) =~ /^\*97(\d+)$/ break=on-false
+Dialplan: sofia/external/ parsing [laura.secord->extension_queue] continue=false
+Dialplan: sofia/external/ Regex (FAIL) [extension_queue] destination_number(784) =~ /^\*800(.*)$/ break=on-false
